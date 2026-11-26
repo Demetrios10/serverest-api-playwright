@@ -1,0 +1,18 @@
+{
+  "name": "serverest-api-playwright",
+  "version": "1.0.0",
+  "description": "Testes automatizados de API REST da ServeRest com Playwright",
+  "type": "module",
+  "scripts": {
+    "test": "playwright test",
+    "test:usuarios": "playwright test tests/usuarios.spec.js",
+    "test:login": "playwright test tests/login.spec.js",
+    "test:produtos": "playwright test tests/produtos.spec.js",
+    "report": "playwright show-report"
+  },
+  "keywords": ["playwright", "api-testing", "qa", "serverest", "automacao"],
+  "license": "MIT",
+  "devDependencies": {
+    "@playwright/test": "^1.49.0"
+  }
+}
