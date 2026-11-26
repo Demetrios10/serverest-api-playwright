@@ -6,6 +6,9 @@ on:
   pull_request:
     branches: [main]
   workflow_dispatch:
+  schedule:
+    # Regressivo diário às 06:00 (horário de Brasília = 09:00 UTC)
+    - cron: "0 9 * * *"
 
 jobs:
   testes:

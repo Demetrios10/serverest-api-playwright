@@ -15,6 +15,7 @@ Demonstrar práticas de automação de testes de API:
 - **Massa de dados dinâmica**, para que os testes sejam independentes e possam rodar em paralelo
 - Fluxo **E2E** de CRUD completo
 - **Integração contínua** com GitHub Actions e relatório HTML
+- **Regressivo agendado**: a suíte roda automaticamente todos os dias às 06:00 (horário de Brasília)
 
 ## 📋 Cobertura
 
